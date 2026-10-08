@@ -1,41 +1,33 @@
-# Manutec - Landing Page Next.js
+# Manutec: landing page for an electrical services company
 
-Landing page premium para **Manutec - Instalação e Manutenção Elétrica Residencial**.
+Landing page for Manutec, a residential electrical installation and maintenance business in the Porto Alegre metropolitan area (Brazil).
 
-## Rodar localmente
+## Features
+
+- Sections: hero, about, services, differentials, projects and contact
+- Quote request form that builds a pre-filled WhatsApp message
+- Floating WhatsApp button and scroll-reveal animations
+- Company data (phone, e-mail, coverage area, services) kept in one file: `lib/siteConfig.js`
+
+## Tech stack
+
+- Next.js 16 (App Router), React 19
+- Tailwind CSS
+
+## Running locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Acesse `http://localhost:3000`.
+Open `http://localhost:3000`.
 
-## Build de produção
+## Production build
 
 ```bash
 npm run build
 npm start
 ```
 
-## Deploy na Vercel
-
-1. Suba este projeto para um repositório Git.
-2. Importe o repositório na Vercel.
-3. Build command: `npm run build`
-4. Output: padrão do Next.js.
-
-## Personalizações rápidas
-
-Edite os dados da empresa em:
-
-- `lib/siteConfig.js`
-
-Principalmente:
-
-- `whatsappNumber`
-- `phone`
-- `email`
-- `address`
-- `coverage`
-# Manutec
+The site content is in Portuguese.
